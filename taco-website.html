@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="tacostyle.css">
+    <title>Tacos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the world of Tacos</h1>
+        <nav>
+            <a href="#types">Types of Tacos</a>
+            <a href="#origins">Origins</a>
+            <a href="#facts">Fun facts</a>
+            <a href="#cuisines">Cuisines</a> 
+            <a href="#contact">Contact us</a>
+        </nav>
+    </header>
+
+    <section id="types">
+        <h2>Discover different types of Tacos</h2>
+        <ul>
+            <li><strong>Soft Tacos:</strong> Made with soft tortillas and various fillings.</li>
+            <li><em>Hard Shell Tacos:</em> Crispy shells filled with seasoned meat, lettuce, and cheese.</li>
+            <li><i>Vegetarian Tacos:</i> Filled with a variety of fresh vegetables, beans, and cheese.</li>
+        </ul>
+
+       
+        <section id="images">
+            <h2>Type of Tacos</h2>
+            <div class="image-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/1200px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg" alt="Soft tacos">
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/cs%2F2023%2FK%2FCA-Walnuts%2FWalnut-Tacos%2F2023CAWalnuts-Tacos-1" alt="hard shell tacos">
+                <img src="https://cleangreensimple.com/wp-content/uploads/vegan-tacos-cauliflower.jpg" alt="vegetarian tacos">
+            </div>
+        </section>
+    </section>
+
+    <section id="origins">
+        <h2>Origins of Tacos</h2>
+        <div class="info-box">
+            <p>Tacos have a rich history and are believed to have originated in Mexico. Today, they have become a popular dish worldwide.</p>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Popular Taco Varieties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mexico</td>
+                        <td>Street Tacos, Tacos al Pastor</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>Hard Shell Tacos, Tex-Mex Tacos</td>
+                    </tr>
+                    <tr>
+                        <td>Spain</td>
+                        <td>Spanish-style Tacos with unique flavors</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="cuisines"> 
+        <h2>Explore Taco Cuisines</h2>
+        <ul>
+            <li><a href="https://www.google.com/search?q=Mexican+Tacos" target="_blank">Mexican Tacos</a></li>
+            <li><a href="https://www.google.com/search?q=American+Tex-Mex+Tacos" target="_blank">American Tex-Mex Tacos</a></li>
+            <li><a href="https://www.google.com/search?q=Spanish+Tacos" target="_blank">Spanish Tacos</a></li>
+            <li><a href="https://www.google.com/search?q=Asian+Fusion+Tacos" target="_blank">Asian Fusion Tacos</a></li>
+            <li><a href="https://www.google.com/search?q=Vegetarian+and+Vegan+Tacos" target="_blank">Vegetarian and Vegan Tacos</a></li>
+            <li><a href="https://www.google.com/search?q=Tacos" target="_blank">...and many more!</a></li>
+        </ul>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form_here" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="taco_type">Favorite taco:</label>
+                <select id="taco_type" name="taco_type">
+                    <option value="soft">Soft Tacos</option>
+                    <option value="hard">Hard Shell Tacos</option>
+                    <option value="vegetarian">Vegetarian Tacos</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="story">Your Story:</label>
+                <textarea id="story" name="story" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>World of Tacos 2023 | <a href="mailto:tacos@worldoftacos.com">Email Us</a></p>
+    </footer>
+    
+</body>
+</html>

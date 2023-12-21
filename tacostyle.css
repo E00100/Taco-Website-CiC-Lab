@@ -1,0 +1,147 @@
+/* tacostyle.css */
+
+body {
+    font-family: 'verdana', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1782c;
+    color: #000000;
+    cursor: url('taco-cursor.png'), auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #A52A2A;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #8B4513;
+    padding: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+    background-color: #efefbf;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3 {
+    color: #223c02;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#images h2 {
+    color: #ca9292;
+}
+
+#cuisines ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #A52A2A;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #A52A2A;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin: 0 auto; /* Add this line to center the box horizontally */
+}
+
+
+/* Responsive design */
+
+@media screen and (max-width: 600px) {
+   
+    input, select, textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+
+}
+
+footer {
+    background-color: #A52A2A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
